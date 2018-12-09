@@ -28,8 +28,13 @@
     "identity"
   ],
   "dependencies": {},
+  "peerDependencies": {
+    "react": "*"
+  },
   "devDependencies": {
     "@types/node": "^10.9.4",
+    "@types/react": "^16.7.13",
+    "react": "^16.6.3",
     "rimraf": "^2.6.0",
     "typescript": "^3.0.3",
     "typescript-transform-export-interop": "^1.0.0"

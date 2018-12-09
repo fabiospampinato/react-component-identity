@@ -1,8 +1,14 @@
 
+/* IMPORT */
+
+import * as React from 'react';
+
 /* REACT COMPONENT IDENTITY */
 
-function Identity ({ children }) {
-  return children;
+class Identity extends React.PureComponent {
+  render () {
+    return this.props.children;
+  }
 }
 
 /* EXPORT */
